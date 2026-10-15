@@ -1,0 +1,24 @@
+{
+  "features": [
+    "HighBP",
+    "HighChol",
+    "BMI",
+    "Smoker",
+    "Stroke",
+    "HeartDiseaseorAttack",
+    "PhysActivity",
+    "Fruits",
+    "Veggies",
+    "GenHlth",
+    "MentHlth",
+    "PhysHlth",
+    "DiffWalk",
+    "Sex",
+    "Age"
+  ],
+  "thr": 0.12000000000000001,
+  "thr_high": 0.44,
+  "test_auc": 0.8161577618013732,
+  "test_recall": 0.804498514641392,
+  "test_precision": 0.29007906146391227
+}
