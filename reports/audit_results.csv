@@ -1,0 +1,8 @@
+experiment,n,n_features,AUC,AUC_std,accuracy
+1. Naive: all features,907,18,0.998,0.002,0.989
+2. Leakage columns removed,907,11,0.966,0.009,0.921
+3. Age alone,907,1,0.94,0.011,0.919
+"4. Leakage removed, Age removed",907,10,0.928,0.014,0.863
+5a. Ages 30-59: Age alone,499,1,0.69,0.107,0.856
+"5b. Ages 30-59: no leakage, with Age",499,11,0.851,0.039,0.88
+"5c. Ages 30-59: no leakage, no Age",499,10,0.849,0.048,0.878
